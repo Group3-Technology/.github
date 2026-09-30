@@ -4,8 +4,8 @@ Precision magnetic measurement instruments — and the software that drives
 them.
 
 This GitHub organisation hosts the software side of our instruments: the
-desktop application customers use to control and log from a teslameter, and
-the open-source driver library underneath it.
+desktop applications customers use to control and log from a teslameter, and
+the open-source driver library underneath them.
 
 ## Download the software
 
@@ -22,15 +22,30 @@ Guide.
 First-launch approval steps, checksums, and troubleshooting are in the
 [downloads repository](https://github.com/Group3-Technology/dtm151s-releases).
 
+### [⬇ DTM 351-S Teslameter — Control GUI](https://github.com/Group3-Technology/dtm351s-releases/releases/latest)
+
+Desktop control and monitoring for the **DTM 351-S 3-axis digital
+teslameter** over serial connections: three channels read together, a live
+magnitude, real-time graphs, a 3D view of the field's direction, CSV logging,
+and a configurable derived measure.
+
+Available for **macOS** and **Windows 10/11**. No installer, no admin rights,
+and no separate runtime — unzip and run. Each download includes the full User
+Guide.
+
+First-launch approval steps, checksums, and troubleshooting are in the
+[downloads repository](https://github.com/Group3-Technology/dtm351s-releases).
+
 ## Repositories
 
 | Repository | What it is |
 |------------|------------|
 | [**dtm151s-releases**](https://github.com/Group3-Technology/dtm151s-releases) | Downloads for the DTM 151-S Control GUI — installers for macOS and Windows, checksums, and release notes. MIT. |
+| [**dtm351s-releases**](https://github.com/Group3-Technology/dtm351s-releases) | Downloads for the DTM 351-S Control GUI — installers for macOS and Windows, checksums, and release notes. MIT. |
 | [**group3lib**](https://github.com/Group3-Technology/group3lib) | A typed Python driver library for Group3 digital teslameters. Layered transport / protocol / session / model, so further instruments slot in without rewriting the core. Python 3.10+, no required runtime dependencies. MIT. |
 
 Talking to a Group3 instrument from your own code? Start with **group3lib** —
-it's the same driver the Control GUI uses.
+it's the same driver both Control GUIs use.
 
 ## Support
 
